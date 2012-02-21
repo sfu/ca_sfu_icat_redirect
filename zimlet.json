@@ -1,0 +1,19 @@
+{
+    "name": "ca_sfu_icat_redirect",
+    "description": "Redirect a message to a different recipient",
+    "version": "1.0.0",
+    "author": {
+        "email": "grahamb@sfu.ca",
+        "name": "Graham Ballantyne"
+    },
+    "dependsOnBaseZimlet": true,
+    "acl": {
+        "default": "grant",
+        "techteam": "grant"
+    },
+    "priority": null,
+    "postflight": {
+        "flushCaches": true,
+        "requiresRestart": false
+    }
+}

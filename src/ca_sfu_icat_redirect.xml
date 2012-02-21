@@ -1,0 +1,26 @@
+<zimlet name="ca_sfu_icat_redirect" version="{{deploy_version}}" description="Redirect a message to a different recipient" label="Redirect Message">
+	<summary>
+		Redirect a message to a different recipient
+	</summary>
+
+	<include>ca_sfu_icat_redirect.js</include>
+	<includeCSS>ca_sfu_icat_redirect.css</includeCSS>
+	<resource>sfu_logo.gif</resource>
+	<handlerObject>ca_sfu_icat_redirect</handlerObject>
+
+	<zimletPanelItem label="Redirect Message" icon="SFU-panelIcon">
+
+		<toolTipText>
+			Redirect a message to a different recipient
+		</toolTipText>
+
+		<contextMenu>
+			<menuItem label="Menu Item Label" id="" icon="SFU-panelIcon">
+				<canvas type="window"/>
+				<actionUrl target="#"/>
+			</menuItem>
+		</contextMenu>
+
+	</zimletPanelItem>
+
+</zimlet>

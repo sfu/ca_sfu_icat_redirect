@@ -1,0 +1,7 @@
+<zimletConfig name="ca_sfu_icat_redirect" version="{{deploy_version}}">
+  <global>
+    <property name="allowedDomains">*.sfu.ca</property>
+    <property name="gitCommit">{{gitcommit}}</property>
+    <property name="deployDate">{{deploydate}}</property>
+  </global>
+</zimletConfig>
